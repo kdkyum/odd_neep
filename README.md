@@ -77,7 +77,7 @@ python main_omj.py \
 Cite the following Bibtex.
 ```bibtex
 @article{kim2021odd_neep,
-  title={Learning entropy production via neural networks},
+  title={Estimating entropy production in a stochastic system with odd-parity variables},
   author={Dong-Kyum Kim and Sangyun Lee and Hawoong Jeong},
   journal={arXiv preprint arXiv:2112.04681},
 }
