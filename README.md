@@ -38,7 +38,7 @@ To enable gpu usage, install gpu version `torch` package from [PyTorch](https://
 
 ```bash
 python main_ubs.py \
-  --save results/ubs \
+  --save results/ubs/N2_m0-01_Tc1_seed0 \
   --n_layer 2 \
   --n_hidden 256 \
   --N 2 \
@@ -52,14 +52,14 @@ python main_ubs.py \
   --trj_len 4000 \
   --record_freq 400 \
   --n_iter 100000 \
-  --seed 42
+  --seed 0
 ```
 
 * Training for odd-parity Markov jump process.
 
 ```bash
 python main_omj.py \
-  --save results/odd_markov_jump/c10 \
+  --save results/omj/c10_seed0 \
   --n_layer 2 \
   --n_hidden 256 \
   --trj_len 10000 \
@@ -70,7 +70,7 @@ python main_omj.py \
   --n_iter 10000 \
   --record_freq 500 \
   --batch_size 4096 \
-  --seed 42 
+  --seed 0 
 ```
 
 ## Bibtex
